@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/note_lite/note_page/page.tsx"],"sourcesContent":["import { useState } from \"react\";\r\ninterface noteobj {\r\n  title: string;\r\n  content: string;\r\n  owner: string;\r\n}\r\nexport default async function NoteList() {\r\n  \r\n\r\n}\r\n"],"names":[],"mappings":";;;;AAMe,eAAe,YAG9B"}}]
+}

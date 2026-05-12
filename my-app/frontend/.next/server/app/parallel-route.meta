@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/parallel-route/layout,_N_T_/parallel-route/@cont/layout,_N_T_/parallel-route/@cont/page,_N_T_/parallel-route"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/parallel-route/__DEFAULT__",
+    "/parallel-route/@cont/!KHNsb3Qp/__PAGE__",
+    "/parallel-route/@cont/!KHNsb3Qp",
+    "/parallel-route/@hero/!KHNsb3Qp/__PAGE__",
+    "/parallel-route/@hero/!KHNsb3Qp",
+    "/parallel-route/@sidebar/!KHNsb3Qp/__PAGE__",
+    "/parallel-route/@sidebar/!KHNsb3Qp",
+    "/parallel-route",
+    "/_index",
+    "/_head"
+  ]
+}

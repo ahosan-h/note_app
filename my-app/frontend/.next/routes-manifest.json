@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/int-par/pokemon/:nxtPid",
+        "destination": "/int-par/(.)pokemon/:nxtPid",
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/int\\-par(?:/.*)?"
+          }
+        ],
+        "regex": "^/int-par/pokemon(?:/([^/]+?))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/bio/[slug]/[cat]",
+      "regex": "^/bio/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug",
+        "nxtPcat": "nxtPcat"
+      },
+      "namedRegex": "^/bio/(?<nxtPslug>[^/]+?)/(?<nxtPcat>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/blogs/[slug]",
+      "regex": "^/blogs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blogs/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/int-par/(.)pokemon/[id]",
+      "regex": "^/int\\-par/\\(\\.\\)pokemon/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/int\\-par/\\(\\.\\)pokemon/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/int-par/[type]",
+      "regex": "^/int\\-par/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtype": "nxtPtype"
+      },
+      "namedRegex": "^/int\\-par/(?<nxtPtype>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/parallel-route/[dick]",
+      "regex": "^/parallel\\-route/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPdick": "nxtPdick"
+      },
+      "namedRegex": "^/parallel\\-route/(?<nxtPdick>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/Pokemonn/[id]",
+      "regex": "^/Pokemonn/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/Pokemonn/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/adduser",
+      "regex": "^/adduser(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/adduser(?:/)?$"
+    },
+    {
+      "page": "/api/user",
+      "regex": "^/api/user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user(?:/)?$"
+    },
+    {
+      "page": "/api/user/hdpost",
+      "regex": "^/api/user/hdpost(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/hdpost(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/parallel-route",
+      "regex": "^/parallel\\-route(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/parallel\\-route(?:/)?$"
+    },
+    {
+      "page": "/rs",
+      "regex": "^/rs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rs(?:/)?$"
+    },
+    {
+      "page": "/rs/rn",
+      "regex": "^/rs/rn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rs/rn(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

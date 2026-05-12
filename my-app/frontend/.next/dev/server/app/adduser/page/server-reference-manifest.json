@@ -1,0 +1,65 @@
+{
+  "node": {
+    "0000e2799b89c35da33599e02fdaac3dd2323207d3": {
+      "workers": {
+        "app/adduser/page": {
+          "moduleId": "[project]/.next-internal/server/app/adduser/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/bcuser.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/bcpost.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "Bcgetuser",
+          "filename": "app/actions/bcuser.ts"
+        }
+      },
+      "layer": {
+        "app/adduser/page": "action-browser"
+      },
+      "exportedName": "Bcgetuser",
+      "filename": "app/actions/bcuser.ts"
+    },
+    "405c790056af3057cbfd01eae7daa438dd9b217adc": {
+      "workers": {
+        "app/adduser/page": {
+          "moduleId": "[project]/.next-internal/server/app/adduser/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/bcuser.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/bcpost.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "default",
+          "filename": "app/actions/bcuser.ts"
+        }
+      },
+      "layer": {
+        "app/adduser/page": "action-browser"
+      },
+      "exportedName": "default",
+      "filename": "app/actions/bcuser.ts"
+    },
+    "4013138a0164a5f6614fc48def2520755d50b09779": {
+      "workers": {
+        "app/adduser/page": {
+          "moduleId": "[project]/.next-internal/server/app/adduser/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/bcuser.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/bcpost.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "default",
+          "filename": "app/actions/bcpost.ts"
+        }
+      },
+      "layer": {
+        "app/adduser/page": "action-browser"
+      },
+      "exportedName": "default",
+      "filename": "app/actions/bcpost.ts"
+    },
+    "407b408af8173f38ae59e63e64713026d2018aa188": {
+      "workers": {
+        "app/adduser/page": {
+          "moduleId": "[project]/.next-internal/server/app/adduser/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/bcuser.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/bcpost.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "Bcgetpost",
+          "filename": "app/actions/bcpost.ts"
+        }
+      },
+      "layer": {
+        "app/adduser/page": "action-browser"
+      },
+      "exportedName": "Bcgetpost",
+      "filename": "app/actions/bcpost.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/bio/%5Bslug%5D/%5Bcat%5D/layout.tsx"],"sourcesContent":["export default function Layoutcat({children}:{children:React.ReactNode}){\r\n    return(\r\n        <div className=\"flex\">\r\n            {children}\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS,UAAU,EAAC,QAAQ,EAA4B;IACnE,qBACI,8OAAC;QAAI,WAAU;kBACV;;;;;;AAGb"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/note_lite/note_page/getlist.ts"],"sourcesContent":["\"use client\";\r\nimport { useUser } from \"@clerk/nextjs\";\r\nimport { useEffect } from \"react\";\r\n\r\nexport default function Notelist() {\r\n  const { user } = useUser();\r\n\r\n  useEffect(() => {\r\n    if (!user) return console.log(\"user not found\");\r\n\r\n    async function Fecthnotes() {\r\n      const res = await fetch(`http://localhost:2017/getallnotes/${user.id}`);\r\n\r\n      const data = await res.json();\r\n      console.log(data);\r\n    }\r\n    Fecthnotes();\r\n  }, [user]);\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AACA;;AAFA;;;AAIe,SAAS;;IACtB,MAAM,EAAE,IAAI,EAAE,GAAG,IAAA,qLAAO;IAExB,IAAA,0KAAS;8BAAC;YACR,IAAI,CAAC,MAAM,OAAO,QAAQ,GAAG,CAAC;YAE9B,eAAe;gBACb,MAAM,MAAM,MAAM,MAAM,CAAC,kCAAkC,EAAE,KAAK,EAAE,EAAE;gBAEtE,MAAM,OAAO,MAAM,IAAI,IAAI;gBAC3B,QAAQ,GAAG,CAAC;YACd;YACA;QACF;6BAAG;QAAC;KAAK;AACX;GAdwB;;QACL,qLAAO;;;KADF"}}]
+}

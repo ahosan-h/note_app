@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/suborna/page.tsx"],"sourcesContent":["\r\nimport{Button} from \"@/components/ui/button\"\r\nimport Link from \"next/link\"\r\nfunction Suborna(){\r\n \r\n    return(\r\n        <div className=\"flex justify-center\">\r\n            <h1 className=\"text-red\">\r\n                I love you suborna\r\n            </h1>\r\n            <Button>Subrona</Button>\r\n            <Link href=\"/suborna/rock\">Rock</Link>\r\n        </div>\r\n    )\r\n}\r\nexport default Suborna"],"names":[],"mappings":";;;;;AACA;AACA;;;;AACA,SAAS;IAEL,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;gBAAG,WAAU;0BAAW;;;;;;0BAGzB,8OAAC,qIAAM;0BAAC;;;;;;0BACR,8OAAC,0LAAI;gBAAC,MAAK;0BAAgB;;;;;;;;;;;;AAGvC;uCACe"}}]
+}
