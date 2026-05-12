@@ -1,0 +1,3 @@
+{
+  "/pokemon/[[...slug]]/page": "app/pokemon/[[...slug]]/page.js"
+}

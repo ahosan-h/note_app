@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/int-par/%40cont/%28.%29pokemon/%5Bid%5D/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\nimport { useParams, useRouter } from \"next/navigation\";\r\n\r\nexport default function Pokmod() {\r\nconst params=useParams()\r\nconst id=params.id as string\r\n  return (\r\n    <div className=\"flex inset-0 bg-black/50\">\r\n      <div className=\"bg-white p-7 rounded\">\r\n        <h2> modal view</h2>\r\n        <p> pokemonid: {id} </p>\r\n        <h1> full page view </h1>\r\n        <Link href={`/Pokemonn/${id}`}>Click here</Link>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;AACA;AAAA;;;;AAEe,SAAS;IACxB,MAAM,SAAO,IAAA,kMAAS;IACtB,MAAM,KAAG,OAAO,EAAE;IAChB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;8BAAG;;;;;;8BACJ,8OAAC;;wBAAE;wBAAa;wBAAG;;;;;;;8BACnB,8OAAC;8BAAG;;;;;;8BACJ,8OAAC,0LAAI;oBAAC,MAAM,CAAC,UAAU,EAAE,IAAI;8BAAE;;;;;;;;;;;;;;;;;AAIvC"}}]
+}

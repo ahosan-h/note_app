@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/page.tsx"],"sourcesContent":["\n//import Navbar from '@/components/ui/navbar'\nimport Link from 'next/link'\nexport default function Home() {\n\n  \n  return (\n    <div className=\"flex\">\n      <Link href=\"/rs\">Page1</Link>\n      <Link href=\"/rs/rn\">Page2</Link>\n      \n     \n    \n    </div>\n  )\n}"],"names":[],"mappings":";;;;;AACA,6CAA6C;AAC7C;;;AACe,SAAS;IAGtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC,0LAAI;gBAAC,MAAK;0BAAM;;;;;;0BACjB,8OAAC,0LAAI;gBAAC,MAAK;0BAAS;;;;;;;;;;;;AAM1B"}}]
+}

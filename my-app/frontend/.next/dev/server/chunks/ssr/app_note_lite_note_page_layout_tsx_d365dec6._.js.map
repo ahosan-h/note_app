@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/note_lite/note_page/layout.tsx"],"sourcesContent":["// Remove the import of NoteUi from \"./page\"\r\n// Next.js handles this injection automatically\r\n\r\nexport default function NoteLayout({\r\n    children,\r\n}: Readonly<{\r\n    children: React.ReactNode\r\n}>) {\r\n    return (\r\n        <div className=\"h-max w-full\">\r\n            {/* Any shared UI like a Header goes here */}\r\n          \r\n            \r\n            <main>{children}</main> {/* page.tsx content appears here */}\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":"AAAA,4CAA4C;AAC5C,+CAA+C;;;;;;;AAEhC,SAAS,WAAW,EAC/B,QAAQ,EAGV;IACE,qBACI,8OAAC;QAAI,WAAU;;0BAIX,8OAAC;0BAAM;;;;;;YAAgB;;;;;;;AAGnC"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/rs/rn/page.tsx"],"sourcesContent":["function Rn(){\r\n    return(\r\n        <div className=\"flex \">\r\n            <h2 className=\"font-black\">\r\n                page 2 is here \r\n            </h2>\r\n        </div>\r\n    )\r\n}\r\nexport default Rn"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAG,WAAU;sBAAa;;;;;;;;;;;AAKvC;uCACe"}}]
+}

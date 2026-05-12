@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/parallel-route/%40hero/%5Bdick%5D/page.tsx"],"sourcesContent":["export default async function Sluge({params}:{params: Promise<{dick:string}>}){\r\n    const{dick}=await params\r\n    return (\r\n        <div className=\"flex\">\r\n<h1>\r\n    this one is: {dick}\r\n</h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,eAAe,MAAM,EAAC,MAAM,EAAkC;IACzE,MAAK,EAAC,IAAI,EAAC,GAAC,MAAM;IAClB,qBACI,8OAAC;QAAI,WAAU;kBACvB,cAAA,8OAAC;;gBAAG;gBACc;;;;;;;;;;;;AAIlB"}}]
+}

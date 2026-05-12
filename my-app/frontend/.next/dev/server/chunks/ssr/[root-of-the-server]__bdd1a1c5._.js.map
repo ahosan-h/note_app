@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/signup/%5B%5B...sign-up%5D%5D/page.tsx"],"sourcesContent":["import { SignUp } from \"@clerk/nextjs\";\r\n\r\nexport default function Page() {\r\n  return (\r\n    <div className=\"flex min-h-screen items-center justify-center\">\r\n      <SignUp path=\"/sign-up\" routing=\"path\" signInUrl=\"/sign-in\" />\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,gMAAM;YAAC,MAAK;YAAW,SAAQ;YAAO,WAAU;;;;;;;;;;;AAGvD"}}]
+}
