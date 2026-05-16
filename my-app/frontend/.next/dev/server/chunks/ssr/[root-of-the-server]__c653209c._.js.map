@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/bio/%5Bslug%5D/%5Bcat%5D/page.tsx"],"sourcesContent":["export default async function Sbrn({params}:{params:Promise<{slug:string;cat:string}>}){\r\n    const {slug}=await params \r\n    const {cat}=await params\r\n    return(\r\n        <div className=\" flex\">\r\n            <h1> slug:{slug}</h1>\r\n            <h1> cat:{cat}</h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,eAAe,KAAK,EAAC,MAAM,EAA4C;IAClF,MAAM,EAAC,IAAI,EAAC,GAAC,MAAM;IACnB,MAAM,EAAC,GAAG,EAAC,GAAC,MAAM;IAClB,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;;oBAAG;oBAAO;;;;;;;0BACX,8OAAC;;oBAAG;oBAAM;;;;;;;;;;;;;AAGtB"}}]
-}

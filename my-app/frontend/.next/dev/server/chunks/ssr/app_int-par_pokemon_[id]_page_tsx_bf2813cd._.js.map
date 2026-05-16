@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/int-par/pokemon/%5Bid%5D/page.tsx"],"sourcesContent":["export default function Fullpage({\r\n  params,\r\n}: {\r\n  params: { id: string; name: string };\r\n}) {\r\n  return (\r\n    <div className=\"flex felx-col\">\r\n      <h1 className=\"text-2xl\">full page view</h1>\r\n      <p>Pokemon id: {params.id} </p>\r\n      <p> pokemon name: {params.name} </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,SAAS,EAC/B,MAAM,EAGP;IACC,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAW;;;;;;0BACzB,8OAAC;;oBAAE;oBAAa,OAAO,EAAE;oBAAC;;;;;;;0BAC1B,8OAAC;;oBAAE;oBAAgB,OAAO,IAAI;oBAAC;;;;;;;;;;;;;AAGrC"}}]
-}

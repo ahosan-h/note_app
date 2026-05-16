@@ -1,1 +1,0 @@
-self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST="[{\"source\":\"/int-par/pokemon/:nxtPid\",\"destination\":\"/int-par/(.)pokemon/:nxtPid\",\"has\":[{\"type\":\"header\",\"key\":\"next-url\",\"value\":\"/int\\\\-par(?:/.*)?\"}],\"regex\":\"^/int\\\\-par/pokemon/(?<nxtPid>[^/]+?)(?:/)?$\"}]";

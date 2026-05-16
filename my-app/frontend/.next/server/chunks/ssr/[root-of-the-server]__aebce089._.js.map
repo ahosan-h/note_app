@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../app/%28auth%29/login/page.tsx"],"sourcesContent":["export default function Rrb(){\r\n    return(\r\n        <div>\r\n        <h1> hellow from the login page </h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":"qVAAe,SAAS,IACpB,MACI,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UACD,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,kCAGZ"}

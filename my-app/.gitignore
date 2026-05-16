@@ -1,0 +1,11 @@
+.envnode_modules
+
+.env
+.env.local
+
+dist
+.next
+
+coverage
+
+node_modules

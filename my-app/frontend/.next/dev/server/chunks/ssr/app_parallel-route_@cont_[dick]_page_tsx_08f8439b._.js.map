@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/parallel-route/%40cont/%5Bdick%5D/page.tsx"],"sourcesContent":["export default async function Dick({params}:{params:Promise<{dick:string}>}){\r\nconst{dick}=await params \r\n\r\nreturn(\r\n    <div className=\"flex\">\r\n        <h1> \r\n            th current page is: {dick}\r\n        </h1>\r\n    </div>\r\n)\r\n}"],"names":[],"mappings":";;;;;;AAAe,eAAe,KAAK,EAAC,MAAM,EAAiC;IAC3E,MAAK,EAAC,IAAI,EAAC,GAAC,MAAM;IAElB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;;gBAAG;gBACqB;;;;;;;;;;;;AAIjC"}}]
-}

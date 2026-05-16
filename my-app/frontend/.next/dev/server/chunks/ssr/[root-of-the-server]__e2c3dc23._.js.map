@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/blogs/%5Bslug%5D/page.tsx"],"sourcesContent":["// app/blog/[slug]/page.tsx\r\n\r\nexport default async function Emu({params}: { params: Promise<{ slug: string }>}) {\r\n    // We must await params in Next.js 15\r\n    const {slug} = await params; \r\n    \r\n    return (\r\n        <div className=\"flex justify-center p-10\">\r\n            <h1 className=\"text-2xl  font-black\">\r\n                Blog Post: {slug}\r\n            </h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":"AAAA,2BAA2B;;;;;;;AAEZ,eAAe,IAAI,EAAC,MAAM,EAAuC;IAC5E,qCAAqC;IACrC,MAAM,EAAC,IAAI,EAAC,GAAG,MAAM;IAErB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAG,WAAU;;gBAAuB;gBACrB;;;;;;;;;;;;AAI5B"}}]
-}

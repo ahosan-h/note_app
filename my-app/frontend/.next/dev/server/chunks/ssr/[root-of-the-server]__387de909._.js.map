@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/rn/my-project/app/note_lite/page.tsx"],"sourcesContent":["import { SignInButton, SignUpButton, UserButton } from \"@clerk/nextjs\";\r\n\r\nexport default function NoteUi(){\r\n    return(\r\n        <div className=\"flex justify-center items-center h-full w-full flex-col\">\r\n            <h1> hi emu hellow there </h1>\r\n\r\n            <h1> signnup if its your first time </h1>\r\n            <SignUpButton/>\r\n\r\n            <h1> already signin  the login </h1>\r\n            <SignInButton/>\r\n\r\n            <UserButton/>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,sMAAY;;;;;0BAEb,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,sMAAY;;;;;0BAEb,8OAAC,oMAAU;;;;;;;;;;;AAGvB"}}]
-}
