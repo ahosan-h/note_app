@@ -4,33 +4,47 @@ import {
   Injectable,
   UnauthorizedException,
 } from '@nestjs/common';
-import { Observable } from 'rxjs';
-import { clerkClient } from '@clerk/clerk-sdk-node';
+
 @Injectable()
 export class ClerkGuard implements CanActivate {
   async canActivate(context: ExecutionContext): Promise<boolean> {
     const request = context.switchToHttp().getRequest();
+
+    // Allow OPTIONS requests
     if (request.method === 'OPTIONS') {
       return true;
     }
-    const token = request.headers.authorization?.split(' ')[1];
-    if (!token) {
-      throw new UnauthorizedException(' you are not authorized');
+
+    const authHeader = request.headers.authorization;
+
+    if (!authHeader) {
+      throw new UnauthorizedException('No authorization header');
     }
+
+    const token = authHeader.split(' ')[1];
+
+    if (!token) {
+      throw new UnauthorizedException('No token provided');
+    }
+
     try {
-      const sessioncalim = await clerkClient.verifyToken(token);
-      console.log('Clerk JWT Claim:', sessioncalim);
+      // Decode JWT manually
+      const payload = JSON.parse(
+        Buffer.from(token.split('.')[1], 'base64').toString(),
+      );
+
+
+
       request.user = {
-        clerkId: sessioncalim.sub,
-        email:
-          (sessioncalim as any).email_address ||
-          (sessioncalim as any).email ||
-          '',
+        clerkId: payload.sub,
+        email: payload.email || '',
       };
 
       return true;
-    } catch (err) {
-      throw new UnauthorizedException();
+    } catch (error) {
+      console.error(error);
+
+      throw new UnauthorizedException('Invalid token');
     }
   }
 }

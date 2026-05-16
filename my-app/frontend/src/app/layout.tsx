@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
+import { SyncUserProvider } from "@/components/sync-user-provider";
+
 
 import "./globals.css";
 
@@ -19,9 +21,12 @@ export default function RootLayout({
   return (
     <ClerkProvider>
     <html lang="en">
-      <body>{children}
-
-      <Toaster richColors />
+      <body>
+        <SyncUserProvider>
+             {children}
+             <Toaster richColors />
+        </SyncUserProvider>
+      
 
       </body>
     </html>

@@ -8,9 +8,10 @@ async function bootstrap() {
   app.enableCors({
     origin: (origin, callback) => {
       const allowedOrigins = [
-        'http://localhost:3000',
-        'https://573d34ff-3000.inc1.devtunnels.ms',
-      ];
+    'http://localhost:3000',
+    'http://192.168.0.100:3000',
+    'https://573d34ff-3000.inc1.devtunnels.ms',
+];
       // Allow requests with no origin or those in our list
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
