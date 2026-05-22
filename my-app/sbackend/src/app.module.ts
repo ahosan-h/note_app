@@ -7,7 +7,7 @@ import { UserModule } from './user/user.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { NoteopsController } from './noteops/noteops.controller';
-import { NoteopsService } from './noteops/noteops.service';
+
 import { NoteopsModule } from './noteops/noteops.module';
 
 @Module({
